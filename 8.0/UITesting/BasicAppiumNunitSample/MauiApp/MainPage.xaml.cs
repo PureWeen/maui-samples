@@ -11,6 +11,8 @@ public partial class MainPage : ContentPage
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
+
+		new Button().me
 		count++;
 
 		if (count == 1)
